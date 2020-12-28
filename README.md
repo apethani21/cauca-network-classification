@@ -35,6 +35,6 @@ Trials were run using deep & wide, deep and narrow, and shallow neural network a
 
 ## Result and evaluation
 
-The [test_model](https://github.com/apethani21/cauca-network-classification/tree/main/test_model) folder contains the final model trained on the original train and validation sets combined, and evaluated on the test set. The final accuracy achieved on the test set was 77%.
+The [test_model](https://github.com/apethani21/cauca-network-classification/tree/main/test_model) folder contains the final model trained on the original train and validation sets combined, and evaluated on the test set. The final accuracy achieved on the test set was 77%, up from the 66.9% achieved in the original baseline using `MLPClassifier`.
 
 The [final model architecture](https://github.com/apethani21/cauca-network-classification/blob/main/test_model/model_summary.txt) contains 4 deep, fully connected layers containing 256, 512, 769 and 512 nodes respectively, resulting in 967,730 trainable parameters.
